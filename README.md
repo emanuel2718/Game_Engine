@@ -1,6 +1,4 @@
-# Hitchhiking-the-galaxy
-A solo spaceship flying through the void of space hitchhiking from galaxy to galaxy looking for anwsers.
+# Game Engine
 
-~~Made with Mematic~~.  Made with pygame.
+A Python game engine with pygame to avoid doing repetetive work when starting a new game.
 
-# Game_Engine
