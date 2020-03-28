@@ -12,10 +12,12 @@ class Game:
 
     def __init__(self):
         pygame.init()
-        pygame.display.set_caption('Game Engine')
+        pygame.display.set_caption('XYZ GAME')
 
         self.screen = pygame.display.set_mode(config.SCREEN_SIZE)
-
+        #self.screen_rect = pygame.Surface((config.SCREEN_WIDTH,
+                                          #donfig.SCREEN_HEIGHT))
+        print(self.screen_rect)
         # Background
         self.background = pygame.image.load('../assets/images/background.jpg')
         self.playerSprite = pygame.image\
